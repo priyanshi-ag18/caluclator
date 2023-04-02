@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+}
+
+.calc-main{
+    background-color: black;
+    width: 315px;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+.input{
+    display: grid;
+    grid-template-rows: 65px 65px 65px 68px;
+    margin-left: 25px;
+    margin-top: 15px;
+    
+}
+button{
+    color: white;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    font-size: large;
+    background-color: gray;
+    border: none;
+    cursor: pointer;
+}
+.output-box{
+    margin-top: 15px;
+    margin-left: 23px;
+    padding-right: 80px;
+    padding-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+input::placeholder{
+    font-size: 20px;
+}
+.op{
+    margin-left: 4px;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(249, 157, 8);
+}
